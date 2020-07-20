@@ -37,14 +37,22 @@ reliable for the application. </p>
 <h2>
     3. Executing the Plan
 </h2>
-<ul>
-    <li>Code easy to read and to maintain (i.e. Clean code)</li>
-    <li>Object-oriented design patterns (OOD)</li>
-    <li>Object-oriented design principles (SOLID) (Expandable Design)</li>
-    <li>Unit testing (TDD)</li>
-</ul>
-*the source code must be submitted without its byte code
-*
+✔️ Product class
+   ✔️ Test class
+    ✔️ create a new product
+    ✔️ set price, if it's taxable and/or an imported product
+✔️ Order class
+    ✔️ Test class
+    ✔️ add product to the cart
+    ✔️ getCartItems
+✔️ Calculations class
+    ✔️ Test class
+    ✔️ calculate the total price of all the items in the cart 
+    ✔️ calculate the total taxes (sales & imported tax) in the cart
+✔️ Receipt class
+    ✔️ Test class
+    ✔️ print an itemized receipt of product name, product price, tax total and total price (including taxed) 
+ 
 *
 *
 *
@@ -53,7 +61,10 @@ reliable for the application. </p>
 <h2>
     4. Reflection / Refactor
 </h2>
-*
+ I had to really understand what the assignment was asking me to do, i.e. there is no need to use IO or have a data store. 
+ I  orginally created my UML to have a store class and a customer class, but before I got too deep into coding I realized 
+ what the instructions stated. I am so glad that I caught that or I would have totally missed the mark of the assignment 
+ conceptually. 
 *
 *
 *
